@@ -1,0 +1,141 @@
+.group_slide_description {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(17%,rgba(0,0,0,0.22)),color-stop(57%,rgba(0,0,0,0.75)),color-stop(88%,rgba(0,0,0,0.75)),color-stop(100%,rgba(0,0,0,0.75)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#bf000000',GradientType=0);
+}
+
+.group_slide_description {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    padding: 2.118933698%;
+    padding-top: 5.297334245%;
+    padding-bottom: 2.5427204376%;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+
+.owl-theme .owl-controls .owl-buttons div {
+   color: #FFF;
+  /* display: inline-block; */
+  zoom: 1;
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 10rem;
+  border-radius: 0px;
+  background: none;
+  filter: Alpha(Opacity=50);
+  opacity: 0.8;
+  position: absolute;
+
+}
+
+.owl-prev {
+  left:0;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  display: block;
+}
+
+.owl-next {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  display: block;
+}
+
+  .owl-prev, .owl-next {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .owl-prev:before {
+    content: "\f104";
+  }
+
+  .owl-next:after {
+    content: "\f105";
+  }
+
+  .owl-pagination {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .owl-theme .owl-controls .owl-page span {
+    background: #fff;
+    z-index: 1000;
+  }
+
+  header[role=banner] {
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    z-index: 2;
+    color: #2c2c2c;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e2e2;0
+    padding: 0;
+    min-height: 108px;
+    min-height: 6rem;
+  }
+
+  header[role=banner] a.home-logo {
+/*    width: 80px;
+    height: 72px;
+    height: 4rem;*/
+    padding: 18px;
+    padding: 1rem;
+    background: url("/images/understanding-society-logo.svg") no-repeat 50% 50%;
+    text-indent: -3000em;
+    overflow: hidden;
+    display: block;
+}
+
+  img {
+    width: 100%;
+  }
+
+#events-list article {
+    position: relative;
+    padding: 15px 0px 16px 40px;
+    padding: 0.9375rem 0rem 1rem 4.5rem;
+    min-height: 80px;
+}
+
+#events-list article time {
+    position: absolute;
+    top: 16px;
+    top: 1rem;
+    left: 0;
+    padding: 0px;
+    padding: 0rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    /* border-radius: 5px; */
+    border-bottom: 2px solid #FFC61D;
+}
+
+#events-list article time p.day {
+      font-size: 30px;
+      margin-bottom: 0;
+}
