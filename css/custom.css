@@ -1,3 +1,14 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000023;
+    line-height: 24px;
+    line-height: 1.5rem;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
 .group_slide_description {
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
@@ -138,4 +149,128 @@
 #events-list article time p.day {
       font-size: 30px;
       margin-bottom: 0;
+}
+
+
+
+/*fonts*/
+
+@font-face {
+    font-family: 'ChevinLight';
+    src: url("../fonts/chevinstd-light-webfont.eot");
+    src: url("../fonts/chevinstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-light-webfont.woff") format("woff"), url("../fonts/chevinstd-light-webfont.ttf") format("truetype"), url("../fonts/chevinstd-light-webfont.svg#chevin_std_lightregular") format("svg");
+    font-weight: 100 !important;
+    font-style: normal
+}
+@font-face {
+    font-family: 'ChevinLightItalic';
+    src: url("../fonts/chevinstd-lightitalic-webfont.eot");
+    src: url("../fonts/chevinstd-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-lightitalic-webfont.woff") format("woff"), url("../fonts/chevinstd-lightitalic-webfont.ttf") format("truetype"), url("../fonts/chevinstd-lightitalic-webfont.svg#chevin_std_lightitalic") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'ChevinMedium';
+    src: url("../fonts/chevinstd-medium-webfont.eot");
+    src: url("../fonts/chevinstd-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-medium-webfont.woff") format("woff"), url("../fonts/chevinstd-medium-webfont.ttf") format("truetype"), url("../fonts/chevinstd-medium-webfont.svg#chevin_std_mediumregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'ChevinMediumitalic';
+    src: url("../fonts/chevinstd-mediumitalic-webfont.eot");
+    src: url("../fonts/chevinstd-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-mediumitalic-webfont.woff") format("woff"), url("../fonts/chevinstd-mediumitalic-webfont.ttf") format("truetype"), url("../fonts/chevinstd-mediumitalic-webfont.svg#chevin_std_mediumitalic") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+/*end fonts*/
+
+/*elements*/
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-family: "ChevinLight", Helvetica, Arial, sans-serif;
+    text-rendering: optimizelegibility;
+    font-weight: 100;
+    margin: 0
+}
+
+h1 {
+  /*2x base size*/
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 40px;
+}
+
+h2 {
+  /*1.75x base size*/
+  font-size: 28px;
+  margin-bottom: 24px;
+  line-height: 48px;
+}
+
+
+h3 {
+  /*1.5x base size*/
+  font-size: 24px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+}
+time {
+    color: #808080;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-style: italic;
+  }
+
+/*grid*/
+
+.top-buffer { 
+  margin-top:24px; 
+  margin-top:1.5; 
+}
+.bottom-buffer { 
+  margin-bottom:24px; 
+  margin-bottom:1.5;
+}
+
+
+header[role=banner] a.home-logo {
+    width: 250px;
+    height: 130px;
+    padding: 16px;
+    padding: 1rem;
+    background: url("../images/understanding-society-logo.svg") no-repeat 50% 50%;
+    text-indent: -3000em;
+    overflow: hidden;
+    display: block;
+    }
+
+.navbar-collapse {
+  position: relative;
+}
+
+.navbar-form {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.hidden {
+  display: none;
 }
