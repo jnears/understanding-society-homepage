@@ -1,0 +1,641 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000023;
+    line-height: 24px;
+    line-height: 1.5rem;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body {
+  font-size: 16px;
+}
+.group_slide_description {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(17%,rgba(0,0,0,0.22)),color-stop(57%,rgba(0,0,0,0.75)),color-stop(88%,rgba(0,0,0,0.75)),color-stop(100%,rgba(0,0,0,0.75)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,0.22) 17%,rgba(0,0,0,0.75) 57%,rgba(0,0,0,0.75) 88%,rgba(0,0,0,0.75) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#bf000000',GradientType=0);
+}
+
+.group_slide_description {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    padding: 2.118933698%;
+    padding-top: 5.297334245%;
+    padding-bottom: 2.5427204376%;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+
+
+
+.owl-theme .owl-controls .owl-buttons div {
+   color: #FFF;
+  /* display: inline-block; */
+  zoom: 1;
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 80px;
+  border-radius: 0px;
+  background: none;
+  filter: Alpha(Opacity=50);
+  opacity: 0.8;
+  position: absolute;
+
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  padding-top: 15%;
+}
+
+
+
+.owl-prev {
+  left:0;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  display: block;
+  text-align: left;
+}
+
+.owl-next {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  display: block;
+  text-align: right;
+}
+
+  .owl-prev, .owl-next {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .owl-prev:before {
+    content: "\f104";
+  }
+
+  .owl-next:after {
+    content: "\f105";
+  }
+
+  .owl-pagination {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+  }
+
+  .owl-theme .owl-controls .owl-page span {
+    background: #fff;
+    z-index: 1000;
+  }
+
+  .owl-theme .owl-controls {    
+    margin-top: 0;
+  }
+
+  .owl-theme .field-item-single h2 {
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 768px) {
+.group_slide_description {
+    position: relative;
+    background: none;
+    color: black;
+}
+
+.owl-pagination {
+    position: relative;
+    }
+
+.owl-theme .owl-controls .owl-page span {
+  background: #869791;
+}
+
+.owl-theme .owl-controls {
+    margin: 10px 0;
+}
+
+}
+
+  header[role=banner] {
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    z-index: 2;
+    color: #2c2c2c;
+    background: #ffffff;
+    border-bottom: 0;
+    padding: 0;
+    min-height: 108px;
+    min-height: 6rem;
+  }
+  header[role=banner] .container{
+    position: relative;
+  }
+
+  header[role=banner] a.home-logo {
+/*    width: 80px;
+    height: 72px;
+    height: 4rem;*/
+    padding: 18px;
+    padding: 1rem;
+    background: url("/images/understanding-society-logo.svg") no-repeat 50% 50%;
+    text-indent: -3000em;
+    overflow: hidden;
+    display: block;
+}
+
+  img {
+    width: 100%;
+  }
+
+#events-list article {
+    position: relative;
+    padding: 15px 0px 16px 40px;
+    padding: 0.9375rem 0rem 1rem 3.5rem;
+    min-height: 80px;
+}
+
+#events-list article:first-child {
+    margin-top: -1rem;
+}
+
+#events-list article time {
+  position: absolute;
+  top: 16px;
+  top: 1rem;
+  left: 0;
+  padding: 0px;
+  padding: 0rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  font-style: normal;
+}
+
+
+#events-list article time p.day {
+  background: rgb(92, 149, 197);
+  font-size: 24px;
+  margin-bottom: 0;
+  padding: 0 4px;
+}
+
+#events-list article time p.month {
+  padding: 6px;
+  background: rgb(92, 149, 197);
+  margin: 0;
+  padding: 2px;
+      border-top: 1px solid #7EABD1;
+}
+
+
+
+/*fonts*/
+
+@font-face {
+    font-family: 'ChevinLight';
+    src: url("../fonts/chevinstd-light-webfont.eot");
+    src: url("../fonts/chevinstd-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-light-webfont.woff") format("woff"), url("../fonts/chevinstd-light-webfont.ttf") format("truetype"), url("../fonts/chevinstd-light-webfont.svg#chevin_std_lightregular") format("svg");
+    font-weight: 100 !important;
+    font-style: normal
+}
+@font-face {
+    font-family: 'ChevinLightItalic';
+    src: url("../fonts/chevinstd-lightitalic-webfont.eot");
+    src: url("../fonts/chevinstd-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-lightitalic-webfont.woff") format("woff"), url("../fonts/chevinstd-lightitalic-webfont.ttf") format("truetype"), url("../fonts/chevinstd-lightitalic-webfont.svg#chevin_std_lightitalic") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'ChevinMedium';
+    src: url("../fonts/chevinstd-medium-webfont.eot");
+    src: url("../fonts/chevinstd-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-medium-webfont.woff") format("woff"), url("../fonts/chevinstd-medium-webfont.ttf") format("truetype"), url("../fonts/chevinstd-medium-webfont.svg#chevin_std_mediumregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: 'ChevinMediumitalic';
+    src: url("../fonts/chevinstd-mediumitalic-webfont.eot");
+    src: url("../fonts/chevinstd-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chevinstd-mediumitalic-webfont.woff") format("woff"), url("../fonts/chevinstd-mediumitalic-webfont.ttf") format("truetype"), url("../fonts/chevinstd-mediumitalic-webfont.svg#chevin_std_mediumitalic") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+/*end fonts*/
+
+/*elements*/
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    font-family: "ChevinLight", Helvetica, Arial, sans-serif;
+    text-rendering: optimizelegibility;
+    font-weight: 100;
+    margin: 0
+}
+
+h1 {
+  /*2x base size*/
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 40px;
+}
+
+h2 {
+  /*1.75x base size*/
+  font-size: 28px;
+  margin-bottom: 24px;
+  line-height: 48px;
+}
+
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h3.info a:link, h3.info a:visited {
+    color: #2c2c2c;
+}
+
+time {
+    color: #808080;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-style: italic;
+  }
+
+a.meta {
+  font-size: 0.875rem;
+  position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    color: #2F211A;
+}
+
+/*grid*/
+
+.top-buffer { 
+  margin-top:24px; 
+  margin-top:1.5; 
+}
+.bottom-buffer { 
+  margin-bottom:24px; 
+  margin-bottom:1.5;
+}
+
+
+.text-red {
+  color: #e00747;
+}
+.text-yellow {
+  color: #ffc61e;
+}
+.text-green {
+  color: #60c659;
+}
+.text-blue {
+  color: #6689cc;
+}
+
+
+
+header[role=banner] a.home-logo {
+    width: 250px;
+    height: 130px;
+    padding: 16px;
+    padding: 1rem;
+    background: url("../images/understanding-society-logo.svg") no-repeat 50% 50%;
+    text-indent: -3000em;
+    overflow: hidden;
+    display: block;
+    }
+
+  @media only screen and (max-width: 991px) {
+header[role=banner] a.home-logo {
+        margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 110px;
+
+    }
+}
+
+.navbar-collapse {
+  position: relative;
+}
+
+.navbar-form {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.navbar-nav {
+  font-size: 14px;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar-default .navbar-toggle {
+    float: left;
+    margin-top: 30px;
+}
+
+.navbar-default .navbar-toggle .fa, .navbar-default .search-toggle .fa {
+    color: #888;
+}
+@media only screen and (max-width: 991px) {
+.navbar-nav {
+    margin: 0 -15px;
+}
+}
+
+.search-toggle {
+    display: inline;
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+        border-color: #ddd;
+            margin-top: 30px;
+}
+
+.search-toggle:focus, .search-toggle:hover {
+    background-color: #ddd;
+    }
+
+@media only screen and (max-width: 991px) {
+.navbar-form {
+    display: none;
+}
+}
+
+@media (min-width: 768px) {
+.search-toggle {
+    display: none;
+}
+}
+
+.hidden {
+  display: none;
+}
+
+
+nav ol {
+    list-style: none;
+    list-style-image: none;
+    padding-left: 0;
+}
+
+nav ol>li{
+  position: relative;
+      min-height: 34px;
+}
+
+
+nav ol>li .fa-stack{
+  position: absolute;
+    text-align: center;
+}
+
+nav ol h5, nav ol p {
+  margin-left: 40px;
+}
+
+/*bootstrap ovverides*/
+
+
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+      position: relative;
+      float: none;
+    }
+
+    .navbar-form {
+      position: relative;
+      top: 0;
+      border: 0;
+    }
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+  .nav>li {
+          border-bottom: 1px solid #e7e7e7;
+    }s
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-gray {
+  color: #ccc;
+}
+
+
+aside.home {
+    background: #f2f2f2;
+    padding: 16px;
+    padding: 1rem;
+    }
+.fa-stack-2x {
+    font-size: 34px;
+}
+
+.fa-stack-1x {
+    font-size: 18px;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+article.blog  {
+  position: relative;
+}
+
+
+
+@media (max-width: 768px) {
+  article.blog  {
+    min-height: 120px;
+    position: relative;
+    margin-bottom: 24px;
+  }
+        
+
+   article.blog h3 {
+    padding-left: 170px;
+    margin: 0;
+    font-size: 17.6px;
+    font-size: 1.1rem;
+
+  }
+
+  article.blog time {
+    padding-left: 170px;
+  }
+
+  article.blog img {
+    width: 150px;
+    height: 112px;
+    position: absolute;
+    left: 0;
+  }
+}
+
+
+
+.audience .inner {
+    background: #EDEDED;
+    padding: 20px;
+    padding-left: 40px;
+    position: relative;
+}
+
+
+.audience .inner .fa-stack{
+    background: #EDEDED;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer[role=contentinfo] {
+    clear: both;
+    display: block;
+    background: #2c2c2c;
+    color: #dddddd;
+    overflow: auto;
+    margin-top: 54px;
+    margin-top: 3rem;
+    padding: 54px 0px;
+    padding: 3rem 0rem;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-size: 0.88889rem;
+
+}
+
+
+
+
+footer[role=contentinfo] .container {
+  position: relative;
+}
+
+
+
+footer[role=contentinfo] nav.utilities {
+    width: 100%;
+    clear: both;
+}
+
+footer[role=contentinfo] p.address {
+    width: 80%;
+}
+
+footer[role=contentinfo] nav.social {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+}
+
+footer[role=contentinfo] a.esrc {
+    float: left;
+    margin-right: 27px;
+    margin-right: 1.5rem;
+    margin-bottom: 27px;
+    margin-bottom: 1.5rem;
+    display: block;
+    width: 97px;
+    height: 81px;
+    overflow: hidden;
+    text-indent: -3000em;
+    background: url("../images/esrc-logo.svg") no-repeat 50% 50%;
+}
+
+footer[role=contentinfo] nav.utilities ul, footer[role=contentinfo] nav.social ul {
+    padding-left: 0px;
+    padding-left: 0rem;
+    float: right;
+}
+
+footer[role=contentinfo] nav.utilities ul li, footer[role=contentinfo] nav.social ul li {
+    font-size: 14px;
+    list-style-type: none;
+    float: left;
+    margin-left: 13.5px;
+    margin-left: 0.75rem;
+    vertical-align: middle;
+}
+
+footer[role=contentinfo] a:link.t, footer[role=contentinfo] a:visited.t, footer[role=contentinfo] a:active.t {
+    color: #dddddd;
+}
+
