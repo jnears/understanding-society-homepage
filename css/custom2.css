@@ -441,7 +441,7 @@ nav ol {
 
 nav ol>li{
   position: relative;
-      min-height: 44px;
+  font-size: 14px;
 }
 
 @media (max-width: 992px) {
@@ -510,6 +510,11 @@ aside.home {
     font-size: 34px;
 }
 
+
+.fa-stack-3x {
+    font-size: 28px;
+}
+
 .fa-stack-1x {
     font-size: 18px;
 }
@@ -572,11 +577,15 @@ article.blog  {
 
 
 .audience .inner .fa-stack{
-    background: #EDEDED;
+   background: rgb(214, 213, 213);
     position: absolute;
     top: 0;
     left: 0;
+    /* border-radius: 0; */
+    height: 100%;
+    padding-top: 14px;
 }
+
 
 footer[role=contentinfo] {
     clear: both;
